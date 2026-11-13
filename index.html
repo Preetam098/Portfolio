@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: replace https://example.com with the deployed domain -->
+    <meta name="theme-color" content="#0a0a0b" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Preetam Prajapat | Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Preetam Prajapat, a software engineer with 4+ years of experience building scalable web applications with React.js, Next.js and Node.js."
+    />
+    <meta name="author" content="Preetam Prajapat" />
+    <meta
+      name="keywords"
+      content="Preetam Prajapat, Software Engineer, React.js Developer, Frontend Developer, Next.js, React Native, Node.js, Portfolio"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Preetam Prajapat" />
+    <meta property="og:title" content="Preetam Prajapat | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Software engineer building scalable web applications with React.js, Next.js and Node.js — 4+ years shipping production interfaces."
+    />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="https://example.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Preetam Prajapat, software engineer"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Preetam Prajapat | Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Software engineer building scalable web applications with React.js, Next.js and Node.js."
+    />
+    <meta name="twitter:image" content="https://example.com/og-image.jpg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Preetam Prajapat",
+        "jobTitle": "Software Engineer",
+        "email": "mailto:prajapatpreetam88@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Indore",
+          "addressCountry": "India"
+        },
+        "knowsAbout": ["React.js", "Next.js", "React Native", "Node.js", "REST APIs"],
+        "sameAs": [
+          "https://github.com/Preetam098",
+          "https://linkedin.com/in/preetam-prajapat-a51644249"
+        ]
+      }
+    </script>
+
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var system = window.matchMedia('(prefers-color-scheme: light)').matches
+            ? 'light'
+            : 'dark';
+          document.documentElement.setAttribute(
+            'data-theme',
+            stored === 'light' || stored === 'dark' ? stored : system,
+          );
+        } catch (error) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+:root {
+  color-scheme: dark;
+
+  --color-bg: #0a0a0b;
+  --color-bg-soft: #0e0e10;
+  --color-surface: #121214;
+  --color-surface-raised: #17171a;
+  --color-border: #232326;
+  --color-border-strong: #313136;
+  --color-text: #ededf0;
+  --color-text-muted: #8b8b94;
+  --color-accent: #6ee7b7;
+  --color-accent-strong: #34d399;
+  --color-accent-2: #818cf8;
+  --color-accent-3: #f472b6;
+  --color-accent-soft: rgba(110, 231, 183, 0.12);
+  --color-accent-line: rgba(110, 231, 183, 0.35);
+  --color-accent-ring: rgba(110, 231, 183, 0.12);
+  --color-ink: #06251b;
+  --color-danger: #fca5a5;
+  --color-danger-soft: rgba(252, 165, 165, 0.12);
+
+  --color-tint-weak: rgba(255, 255, 255, 0.02);
+  --color-tint: rgba(255, 255, 255, 0.03);
+  --color-tint-hover: rgba(255, 255, 255, 0.04);
+  --color-tint-strong: rgba(255, 255, 255, 0.05);
+  --color-header-bg: rgba(10, 10, 11, 0.72);
+  --color-overlay-bg: rgba(10, 10, 11, 0.97);
+
+  --color-heading-from: #ffffff;
+  --color-heading-to: #a6a6b3;
+
+  --skeleton-a: rgba(255, 255, 255, 0.04);
+  --skeleton-b: rgba(255, 255, 255, 0.09);
+
+  --aurora-1: rgba(110, 231, 183, 0.16);
+  --aurora-2: rgba(129, 140, 248, 0.18);
+  --aurora-3: rgba(244, 114, 182, 0.1);
+  --aurora-blur: 14px;
+  --noise-opacity: 0.03;
+
+  --glow-accent: rgba(110, 231, 183, 0.14);
+  --glow-accent-strong: rgba(110, 231, 183, 0.22);
+  --glow-secondary: rgba(129, 140, 248, 0.2);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
+    'Liberation Mono', monospace;
+
+  --fs-display: clamp(2.5rem, 6.5vw, 5rem);
+  --fs-h2: clamp(1.65rem, 3.2vw, 2.35rem);
+  --fs-h3: clamp(1.075rem, 1.5vw, 1.3rem);
+  --fs-body: clamp(0.95rem, 0.95vw, 1.0625rem);
+  --fs-small: 0.8125rem;
+  --fs-eyebrow: 0.75rem;
+
+  --lh-tight: 1.1;
+  --lh-snug: 1.35;
+  --lh-body: 1.7;
+
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.14em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+  --space-10: 5rem;
+  --space-11: 6rem;
+  --space-12: 8rem;
+
+  --section-space: clamp(3.5rem, 8vw, 7rem);
+  --container-max: 1180px;
+  --container-pad: clamp(1.125rem, 4vw, 2.5rem);
+  --header-height: 4.5rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.375rem;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 18px 40px -24px rgba(0, 0, 0, 0.9);
+  --shadow-accent: 0 12px 30px -18px rgba(110, 231, 183, 0.9);
+  --shadow-glow: 0 0 0 1px var(--color-accent-line), var(--shadow-accent);
+
+  --transition-fast: 160ms ease;
+  --transition-base: 240ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  --z-header: 20;
+  --z-overlay: 30;
+  --z-skip: 40;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+
+  --color-bg: #f7f7f5;
+  --color-bg-soft: #f1f1ee;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-border: #e2e2dd;
+  --color-border-strong: #cbcbc4;
+  --color-text: #16161a;
+  --color-text-muted: #5c5c66;
+  --color-accent: #0f766e;
+  --color-accent-strong: #115e59;
+  --color-accent-2: #4f46e5;
+  --color-accent-3: #be185d;
+  --color-accent-soft: rgba(15, 118, 110, 0.09);
+  --color-accent-line: rgba(15, 118, 110, 0.3);
+  --color-accent-ring: rgba(15, 118, 110, 0.14);
+  --color-ink: #ffffff;
+  --color-danger: #b91c1c;
+  --color-danger-soft: rgba(185, 28, 28, 0.07);
+
+  --color-tint-weak: rgba(16, 16, 20, 0.02);
+  --color-tint: rgba(16, 16, 20, 0.035);
+  --color-tint-hover: rgba(16, 16, 20, 0.045);
+  --color-tint-strong: rgba(16, 16, 20, 0.06);
+  --color-header-bg: rgba(247, 247, 245, 0.8);
+  --color-overlay-bg: rgba(247, 247, 245, 0.98);
+
+  --color-heading-from: #16161a;
+  --color-heading-to: #4b4b55;
+
+  --skeleton-a: rgba(16, 16, 20, 0.04);
+  --skeleton-b: rgba(16, 16, 20, 0.1);
+
+  --aurora-1: rgba(15, 118, 110, 0.12);
+  --aurora-2: rgba(79, 70, 229, 0.1);
+  --aurora-3: rgba(190, 24, 93, 0.06);
+  --noise-opacity: 0.02;
+
+  --glow-accent: rgba(15, 118, 110, 0.1);
+  --glow-accent-strong: rgba(15, 118, 110, 0.14);
+  --glow-secondary: rgba(79, 70, 229, 0.12);
+
+  --shadow-sm: 0 1px 2px rgba(16, 16, 20, 0.06);
+  --shadow-md: 0 18px 40px -28px rgba(16, 16, 20, 0.22);
+  --shadow-accent: 0 12px 28px -18px rgba(15, 118, 110, 0.45);
+}

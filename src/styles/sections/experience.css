@@ -1,0 +1,134 @@
+.timeline {
+  display: grid;
+  gap: var(--space-4);
+  position: relative;
+}
+
+.experience__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.experience__footer .section-note {
+  flex: 1 1 20rem;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.timeline__item {
+  position: relative;
+  padding-left: var(--space-5);
+  min-width: 0;
+}
+
+.timeline__item::before {
+  content: '';
+  position: absolute;
+  top: 0.55rem;
+  left: 0.15rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  box-shadow: 0 0 0 4px var(--color-accent-ring);
+}
+
+.timeline__item::after {
+  content: '';
+  position: absolute;
+  top: 1.4rem;
+  bottom: calc(-1 * var(--space-4));
+  left: 0.42rem;
+  width: 1px;
+  background: linear-gradient(180deg, var(--color-border-strong), transparent);
+}
+
+.timeline__item:last-child::after {
+  display: none;
+}
+
+.timeline__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.timeline__role {
+  font-size: var(--fs-h3);
+}
+
+.timeline__range {
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.timeline__company {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-accent);
+  font-size: var(--fs-small);
+  font-weight: 500;
+}
+
+.timeline__company span + span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.timeline__company span + span::before {
+  content: '';
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: var(--color-border-strong);
+}
+
+.timeline__list {
+  display: grid;
+  gap: var(--space-2);
+  padding-left: var(--space-4);
+  list-style: disc;
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.timeline__list li::marker {
+  color: var(--color-accent-line);
+}
+
+@media (min-width: 768px) {
+  .timeline {
+    gap: var(--space-5);
+  }
+
+  .timeline__item {
+    padding-left: var(--space-7);
+  }
+
+  .timeline__item::before {
+    left: 0.4rem;
+    top: 1.15rem;
+  }
+
+  .timeline__item::after {
+    left: 0.67rem;
+    top: 2rem;
+  }
+}

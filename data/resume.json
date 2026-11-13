@@ -1,0 +1,210 @@
+{
+  "personalInfo": {
+    "name": "Preetam Prajapat",
+    "title": "Software Engineer",
+    "summary": "Software developer with over 4 years of hands-on experience designing, developing and maintaining robust web applications. Proficient in leveraging React.js ecosystem tools and libraries to build scalable, responsive user interfaces, and skilled in integrating with backend services and databases to deliver end-to-end solutions.",
+    "email": "prajapatpreetam88@gmail.com",
+    "phone": "6266809198",
+    "location": "Indore, India",
+    "available": true,
+    "photo": "/images/preetam-hero.jpg",
+    "socialLinks": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Preetam098"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/preetam-prajapat-a51644249"
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "src": "/images/preetam-gallery-01.jpg",
+      "alt": "Preetam Prajapat standing with arms crossed against a dark backdrop"
+    },
+    {
+      "src": "/images/preetam-gallery-02.jpg",
+      "alt": "Preetam Prajapat standing with hands in his pockets against a light backdrop"
+    },
+    {
+      "src": "/images/preetam-gallery-03.jpg",
+      "alt": "Preetam Prajapat seated on a stool against a dark backdrop"
+    }
+  ],
+  "notes": {
+    "skills": "Grouped by the problem each tool solves.",
+    "experience": "Two companies, one craft — building interfaces that stay fast as the feature list grows.",
+    "projects": "From internal admin dashboards to a public expense tracker — each one shipped end to end.",
+    "certifications": "Certified in React, still shipping in React."
+  },
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "note": "Where I spend most of my day — component architecture, routing and rendering.",
+      "items": ["React.js", "Next.js", "React Native"]
+    },
+    {
+      "category": "Backend Development",
+      "note": "Enough server-side work to design an API instead of just consuming one.",
+      "items": ["Node.js", "Express.js", "REST APIs"]
+    },
+    {
+      "category": "State Management",
+      "note": "Keeping shared state predictable as screens multiply.",
+      "items": ["Redux Toolkit", "Context API"]
+    },
+    {
+      "category": "Responsive UI/UX",
+      "note": "Layouts that hold up from a 360px phone to a widescreen display.",
+      "items": ["Material UI", "Bootstrap", "Tailwind CSS"]
+    },
+    {
+      "category": "Real-time & Charts",
+      "note": "Live data that updates without making the page feel like it is blinking.",
+      "items": ["Socket.IO", "Apex Charts"]
+    },
+    {
+      "category": "Databases",
+      "note": "Schema design and queries behind the dashboards and portals I build.",
+      "items": ["MongoDB", "MySQL"]
+    },
+    {
+      "category": "Version Control",
+      "note": "Branching, review and release habits that keep a team moving.",
+      "items": ["Git", "GitHub", "GitLab"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "NWAY Technologies Pvt. Ltd.",
+      "role": "React JS Developer",
+      "startDate": "Sept 2024",
+      "endDate": "",
+      "location": "Indore, India",
+      "description": [
+        "Developed multiple web applications using React.js with Vite for fast, scalable front-end development.",
+        "Converted wireframes into responsive, high-performance UI components.",
+        "Integrated RESTful APIs with Redux and Context API for state management.",
+        "Optimized code for performance, reusability and cross-browser compatibility."
+      ]
+    },
+    {
+      "company": "Synetal Solutions Pvt. Ltd.",
+      "role": "React JS Developer",
+      "startDate": "Jun 2022",
+      "endDate": "Sept 2024",
+      "location": "Indore, India",
+      "description": [
+        "Integrated frontend components with backend APIs for seamless data flow.",
+        "Managed application state using Redux and Context API.",
+        "Optimized performance and scalability with modern frontend technologies.",
+        "Delivered features on schedule within Agile workflows."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "NWAY Career Portal",
+      "organization": "NWAY Technologies Pvt. Ltd.",
+      "duration": "Jan 2026 - Feb 2026",
+      "description": [
+        "Developed a career portal web application from scratch using React.js with Vite.",
+        "Built and integrated RESTful APIs to manage job listings, applications and user data dynamically.",
+        "Implemented scalable state management with Redux for complex user interactions and workflows.",
+        "Delivered a responsive, high-performance interface optimized through Vite's fast build and development environment."
+      ],
+      "techStack": ["React.js", "Vite", "Redux", "REST APIs"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "FinTrack - Expense Management System",
+      "organization": "Personal Project",
+      "duration": "Nov 2026 - Dec 2026",
+      "description": [
+        "Built a web and mobile app to track daily expenses and income.",
+        "Used Firebase for real-time database and data synchronization.",
+        "Implemented monthly expense tracking with data visualization charts.",
+        "Designed responsive and user-friendly interfaces."
+      ],
+      "techStack": ["React.js", "React Native", "Firebase", "Charts"],
+      "liveUrl": "https://fintrack-seven-chi.vercel.app/",
+      "repoUrl": ""
+    },
+    {
+      "title": "Sales - Real Estate",
+      "organization": "NWAY Technologies Pvt. Ltd.",
+      "duration": "Oct 2024 - Present",
+      "description": [
+        "Developed a sales real estate web application from scratch using React.js with Vite.",
+        "Integrated RESTful APIs for dynamic data handling.",
+        "Implemented state management with Redux for scalability.",
+        "Delivered a responsive and high-performance user interface."
+      ],
+      "techStack": ["React.js", "Vite", "Redux", "REST APIs"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Opinion Trading Admin Panel",
+      "organization": "Synetal Solutions Pvt. Ltd.",
+      "duration": "",
+      "description": [
+        "Developed the Opinion Trading admin panel using React.js, Bootstrap, Apex Charts and Socket.IO.",
+        "Built an intuitive, responsive dashboard accessible across all devices.",
+        "Implemented real-time data visualization with Apex Charts.",
+        "Integrated Socket.IO for instant opinion trading data synchronization."
+      ],
+      "techStack": ["React.js", "Bootstrap", "Apex Charts", "Socket.IO"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Bridal Dresses",
+      "organization": "Synetal Solutions Pvt. Ltd.",
+      "duration": "",
+      "description": [
+        "Developed a bridal dress rental web app using Next.js and Tailwind CSS.",
+        "Designed responsive, accessible UI components for an enhanced user experience.",
+        "Implemented and managed user and admin workflows for a seamless app experience.",
+        "Used Redux Toolkit to reduce boilerplate and improve maintainability."
+      ],
+      "techStack": ["Next.js", "Tailwind CSS", "Redux Toolkit"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Event Bus",
+      "organization": "Synetal Solutions Pvt. Ltd.",
+      "duration": "",
+      "description": [
+        "Created a web app for booking event transport using React.js, Material UI and custom components.",
+        "Designed the flow for picking customers up from stations and dropping them at event locations.",
+        "Ran usability tests, analysed user feedback and applied recommendations to improve navigation."
+      ],
+      "techStack": ["React.js", "Material UI"],
+      "liveUrl": "",
+      "repoUrl": ""
+    }
+  ],
+  "education": [
+    {
+      "institute": "RGPV University",
+      "degree": "Bachelor of Technology",
+      "startYear": "",
+      "endYear": "2024",
+      "location": "Indore, India",
+      "highlights": ["Awarded for participating in the Spandan 2K24 event as a volunteer."]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Full Modern React",
+      "issuer": "Mind Luster",
+      "year": "2023",
+      "description": "Successfully earned the Full Modern React certification, demonstrating proficiency in advanced React development."
+    }
+  ]
+}
